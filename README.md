@@ -1,1 +1,3 @@
-# mod5_solution
+# Module 5 Coding Assignment
+
+Coursera course: MODULE 5
