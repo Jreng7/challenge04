@@ -1,11 +1,21 @@
 
+
 const express = require('express'); // Importando o express.
 const app = express(); // Inicializando o express e passando essa inicia para o a const APP.
 
 
 app.get('/', function(req, res){
-    res.send('Usando o "res.send" para enviar uma reposta na rota')
+    res.send('Instalando o nodemon')
 })
+
+app.get('/blog', function(req, res) {
+    res.send('Seja bem-vindo(a) ao meu blog.')
+})
+
+app.get('/canal/youtube', function(req, res) {
+    res.send('<h1>bem-vindo(a) ao meu canal.</h1>')
+})
+
 
 
 
