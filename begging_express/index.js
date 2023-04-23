@@ -16,7 +16,13 @@ app.get('/canal/youtube', function(req, res) {
     res.send('<h1>bem-vindo(a) ao meu canal.</h1>')
 })
 
-
+app.get('/ola/:nome/:empresa', function(req, res) {
+    // REQ => sÃO OS DADOS ENVIADOS PELO USUÁRIO. REQ = REQUISIÇÃO = PEDIDO.
+    // RES => RESPOSTA QUE SERÁ ENVIADA PARA O USUÁRIO ( RESPOSTA DO PEDIDO ).
+    let nome = req.params.nome
+    let empresa = req.params.empresa
+    res.send(`<h1>Olá ${nome} você trabalha na empresa ${empresa}!</h1>`)
+})
 
 
 
