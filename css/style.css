@@ -75,3 +75,10 @@ input {
     outline: none;
     padding: 10px;
 }
+
+button {
+    background-color: #00defe;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
