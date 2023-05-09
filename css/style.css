@@ -13,6 +13,18 @@ body {
     font-size: 16px;
 }
 
+h1 {
+    color: #fff;
+}
+
+strong {
+    color: #00defe;
+}
+
+h1, strong {
+    font-size: 35px;
+}
+
 main {
     display: flex;
     align-items: stretch;
