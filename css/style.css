@@ -25,6 +25,14 @@ h1, strong {
     font-size: 35px;
 }
 
+p {
+    color: #3d404d;
+}
+
+img {
+    
+}
+
 main {
     display: flex;
     align-items: stretch;
