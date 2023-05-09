@@ -30,7 +30,8 @@ p {
 }
 
 img {
-    
+    width: 521px;
+    height: 424px;
 }
 
 main {
@@ -46,6 +47,7 @@ aside {
     flex: 1;
     justify-content: center;
     align-items: center;
+    padding: 35px 25px;
 }
 
 .right {
