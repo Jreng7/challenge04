@@ -25,8 +25,18 @@ h1, strong {
     font-size: 35px;
 }
 
+h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 900;
+    padding: 0 25px;
+    margin-bottom: 28px;
+}
+
 p {
     color: #3d404d;
+    width: 70%;
+    line-height: 27px; 
 }
 
 img {
@@ -60,28 +70,6 @@ aside {
     color: #fff;
 }
 
-h1 {
-    color: #fff;
-}
-
-strong {
-    color: #00defe;
-}
-
-p {
-    color: #3d404d;
-    width: 70%;
-    line-height: 27px; 
-}
-
-h1, strong {
-    font-size: 35px;
-}
-
-img {
-    width: 521px;
-    height: 424px;
-}
 
 .low-form {
     display: flex;
@@ -103,4 +91,11 @@ button {
     color: #fff;
     padding: 10px;
     border-radius: 10px;
+}
+
+.right form {
+    width: 40%;
+    max-width: 570px;
+    color: #fff;
+    padding: 0 25px;
 }
